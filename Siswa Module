@@ -1,0 +1,19 @@
+{
+  "siswa": {
+    "endpoints": {
+      "create": {
+        "method": "POST",
+        "url": "/api/siswa",
+        "body": {
+          "nama": "string",
+          "nisn": "string",
+          "jurusan_id": "int"
+        }
+      },
+      "get": {
+        "method": "GET",
+        "url": "/api/siswa"
+      }
+    }
+  }
+}
