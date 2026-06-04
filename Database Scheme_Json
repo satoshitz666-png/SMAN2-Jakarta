@@ -1,0 +1,39 @@
+{
+  "tables": {
+    "users": {
+      "id": "int PK",
+      "name": "string",
+      "email": "string unique",
+      "password": "string",
+      "role": "enum(superadmin,admin,guru)",
+      "status": "boolean",
+      "created_at": "datetime"
+    },
+    "berita": {
+      "id": "int PK",
+      "title": "string",
+      "content": "text",
+      "thumbnail": "string",
+      "status": "enum(draft,publish)",
+      "author_id": "FK users.id",
+      "created_at": "datetime"
+    },
+    "siswa": {
+      "id": "int PK",
+      "nama": "string",
+      "nisn": "string unique",
+      "jurusan_id": "FK jurusan.id"
+    },
+    "jurusan": {
+      "id": "int PK",
+      "nama": "string"
+    },
+    "pendaftar": {
+      "id": "int PK",
+      "nama": "string",
+      "nisn": "string",
+      "asal_sekolah": "string",
+      "status": "enum(pending,diterima,ditolak)"
+    }
+  }
+}
