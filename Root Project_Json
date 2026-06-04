@@ -1,0 +1,24 @@
+{
+  "project": "sman2-dashboard-system",
+  "stack": {
+    "backend": "Node.js (Express)",
+    "database": "MySQL",
+    "orm": "Prisma",
+    "auth": "JWT"
+  },
+  "modules": [
+    "auth",
+    "dashboard",
+    "profil",
+    "berita",
+    "pengumuman",
+    "agenda",
+    "galeri",
+    "siswa",
+    "guru",
+    "ppdb",
+    "prestasi",
+    "dokumen",
+    "users"
+  ]
+}
