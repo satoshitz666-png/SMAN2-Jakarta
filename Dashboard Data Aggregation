@@ -1,0 +1,15 @@
+Endpoint:
+
+GET /api/dashboard/stats
+
+Return:
+
+{
+  "totalSiswa": 1200,
+  "totalGuru": 80,
+  "totalBerita": 32,
+  "ppdb": {
+    "pending": 200,
+    "accepted": 150
+  }
+}
