@@ -1,0 +1,5 @@
+GET /api/profil
+GET /api/berita
+GET /api/pengumuman
+GET /api/agenda
+GET /api/galeri
