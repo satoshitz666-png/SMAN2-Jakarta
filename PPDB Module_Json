@@ -1,0 +1,22 @@
+{
+  "ppdb": {
+    "endpoints": {
+      "register": {
+        "method": "POST",
+        "url": "/api/ppdb",
+        "body": {
+          "nama": "string",
+          "nisn": "string",
+          "asal_sekolah": "string"
+        }
+      },
+      "update_status": {
+        "method": "PUT",
+        "url": "/api/ppdb/:id",
+        "body": {
+          "status": "diterima | ditolak"
+        }
+      }
+    }
+  }
+}
