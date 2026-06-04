@@ -1,0 +1,15 @@
+{
+  "dashboard": {
+    "endpoint": "GET /api/dashboard/stats",
+    "response": {
+      "total_siswa": "int",
+      "total_guru": "int",
+      "total_berita": "int",
+      "ppdb": {
+        "pending": "int",
+        "diterima": "int",
+        "ditolak": "int"
+      }
+    }
+  }
+}
