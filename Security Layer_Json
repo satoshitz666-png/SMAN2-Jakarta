@@ -1,0 +1,13 @@
+{
+  "security": {
+    "password_hash": "bcrypt",
+    "rate_limit": "100 request / 15 min",
+    "cors": {
+      "allowed_origin": "*"
+    },
+    "headers": [
+      "helmet"
+    ],
+    "validation": "Joi/Zod"
+  }
+}
