@@ -1,0 +1,19 @@
+{
+  "frontend": {
+    "landing_page": {
+      "fetch": [
+        "/api/berita",
+        "/api/profil",
+        "/api/pengumuman"
+      ]
+    },
+    "dashboard_admin": {
+      "auth": "/api/auth/login",
+      "data": [
+        "/api/dashboard/stats",
+        "/api/berita",
+        "/api/siswa"
+      ]
+    }
+  }
+}
