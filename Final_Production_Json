@@ -1,0 +1,10 @@
+{
+  "status": {
+    "database": "ready",
+    "api": "ready",
+    "auth": "ready",
+    "security": "basic production",
+    "deploy": "docker ready",
+    "scalable": true
+  }
+}
