@@ -1,0 +1,8 @@
+POST   /api/auth/login
+GET    /api/dashboard/stats
+
+CRUD   /api/berita
+CRUD   /api/siswa
+CRUD   /api/guru
+CRUD   /api/ppdb
+CRUD   /api/pengumuman
