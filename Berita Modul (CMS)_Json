@@ -1,0 +1,27 @@
+{
+  "berita": {
+    "endpoints": {
+      "create": {
+        "method": "POST",
+        "url": "/api/berita",
+        "body": {
+          "title": "string",
+          "content": "string",
+          "thumbnail": "string"
+        }
+      },
+      "get_all": {
+        "method": "GET",
+        "url": "/api/berita"
+      },
+      "update": {
+        "method": "PUT",
+        "url": "/api/berita/:id"
+      },
+      "delete": {
+        "method": "DELETE",
+        "url": "/api/berita/:id"
+      }
+    }
+  }
+}
