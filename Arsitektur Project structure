@@ -1,0 +1,20 @@
+school-system/
+│
+├── backend/
+│   ├── prisma/
+│   │   └── schema.prisma
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── middleware/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   └── app.js
+│   ├── .env
+│   └── package.json
+│
+├── frontend/
+│   ├── landing-page/
+│   └── dashboard-admin/
+│
+└── docker-compose.yml
