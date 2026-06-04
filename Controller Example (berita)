@@ -1,0 +1,32 @@
+const prisma = require("../prisma");
+
+exports.createBerita = async (req, res) => {
+try {
+const { title, content } = req.body;
+
+```
+const berita = await prisma.berita.create({
+  data: {
+    title,
+    content,
+    authorId: req.user.id,
+    status: "draft",
+  },
+});
+
+res.json(berita);
+```
+
+} catch (err) {
+res.status(500).json({ error: err.message });
+}
+};
+
+exports.getBerita = async (req, res) => {
+const data = await prisma.berita.findMany({
+where: { status: "publish" },
+include: { author: true },
+});
+
+res.json(data);
+};
